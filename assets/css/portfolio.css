@@ -1,0 +1,20 @@
+.portfolio {
+  background-color: #e8f7ff;
+}
+
+.portfolio .contents > .list {
+  display: flex;
+  gap: 20px;
+}
+
+.portfolio .title--h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .portfolio .list {
+    flex-direction: column;
+  }
+}

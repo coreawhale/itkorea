@@ -1,0 +1,61 @@
+.skill .contents .list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.skill .contents .list > li {
+  flex: 1;
+}
+
+.skill .list .thumb {
+  overflow: hidden;
+  width: 100%;
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.skill .list .thumb.bg--html {
+  background-image: url(https://cdn.pixabay.com/photo/2015/10/27/14/40/programming-1009134_960_720.jpg);
+}
+
+.skill .list .thumb.bg--css {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/04/13/31/css-1797778_960_720.jpg);
+}
+
+.skill .list .thumb.bg--js {
+  background-image: url(https://cdn.pixabay.com/photo/2019/10/03/12/12/javascript-4523100_960_720.jpg);
+}
+
+.skill .list .thumb.bg--vue {
+  background-image: url(https://cdn.pixabay.com/photo/2020/06/10/09/31/mockup-5281992_960_720.jpg);
+}
+
+.skill .list .thumb.bg--react {
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/08/14/58/icon-1379228_960_720.png);
+}
+
+.skill .title--h3 {
+  margin-top: 10px;
+}
+
+.skill .text-box {
+  text-align: center;
+}
+
+.skill .text-box .text {
+  display: block;
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 640px) {
+  .skill .contents .list {
+    flex-direction: column;
+  }
+
+  .skill .list .thumb {
+    height: 200px;
+  }
+}

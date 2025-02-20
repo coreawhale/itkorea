@@ -1,0 +1,19 @@
+.record .contents {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.record .items {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 640px) {
+  .record .contents {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-box .title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #111;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.title--h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  padding: 4px 0;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.sr-only,
+caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+  clip: rect(0 0 0 0);
+}

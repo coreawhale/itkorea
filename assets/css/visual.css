@@ -1,0 +1,19 @@
+.visual-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 300px;
+  padding-top: 60px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  word-break: keep-all;
+}
+
+.visual-area .text {
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0px 0px 4px #111;
+}

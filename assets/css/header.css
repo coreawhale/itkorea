@@ -1,0 +1,37 @@
+.header__top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 1px 2px rgb(221, 221, 221);
+}
+
+.header__top .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.logo {
+  padding: 10px 0;
+}
+
+.gnb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.gnb__link {
+  display: block;
+  padding: 14px 20px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+  .gnb__link {
+    padding: 10px 10px;
+  }
+}
