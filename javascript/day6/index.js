@@ -10,7 +10,7 @@ console.log(bbb.slice(0, 3).toUpperCase() + bbb.slice(3, bbb.length));
 const ccc = prompt("단어를 입력하세요");
 console.log(ccc.split(" "));
 
-// 알파벳 a 포함 여부에 따라 출려
+// 알파벳 a 포함 여부에 따라 출력
 const ddd = prompt("단어를 입력하세요");
 console.log(ddd.includes("a") ? "포함" : "미포함");
 
