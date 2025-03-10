@@ -13,7 +13,7 @@ console.log(solution("sdfsdfaslkjalaskjfhasdfo"));
 // ];
 
 const todoListResult = (todo_list, finished) => {
-  todo_list.filter((x, i) => !finished[i]);
+  todo_list.filter((x, i) => !finished[i]); //filter는 boolean type으로 참인것만 나타냄
 };
 
 console.log(todoListResult(todoList));
