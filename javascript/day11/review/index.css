@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.background-area {
+  height: 100px;
+}
+
+.items {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.color-name {
+  margin-bottom: 30px;
+}
