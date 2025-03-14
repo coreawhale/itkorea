@@ -1,0 +1,31 @@
+body {
+  background-color: #333;
+}
+
+h2 {
+  color: white;
+}
+
+.feild {
+  color: white;
+}
+
+.control b {
+  color: yellow;
+  font-weight: 400;
+}
+
+.btn {
+  display: block;
+  color: white;
+  background-color: gray;
+  border: 0;
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.btn.on {
+  background-color: yellow;
+  color: #333;
+}
