@@ -5,12 +5,12 @@ const total = document.querySelector(".total");
 const reset = document.querySelector(".reset");
 const buy = document.querySelector(".buy");
 
-const [text, money] = total.innerText.slice(" ");
 // const sss = total.innerText.slice(":");
 
 americano.addEventListener("click", () => {
-  money + 2000;
-  console.log([text, money]);
+  const [text, money] = total.innerText.split(":");
+  [text, money] = money + 2000;
+  console.log([text, money + 2000]);
 });
 
 {
