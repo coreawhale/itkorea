@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  /* background-color: #f2f2f2; */
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.header .logo {
+  display: block;
+  width: 120px;
+}
+
+.btn--nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.btn--nav .bar {
+  width: 26px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+
+.btn--nav .bar:first-child {
+  transform: translateX(-4px);
+}
+
+.btn--nav .bar:nth-child(2) {
+  transform: translateX(4px);
+}

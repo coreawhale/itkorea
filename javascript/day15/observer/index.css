@@ -1,0 +1,29 @@
+section {
+  border: 3px solid #ccc;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  transition: all 0.3s;
+}
+
+.hello {
+  background-color: #f2f2f2;
+  transition: all 0.3s;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+.fadeIn {
+  opacity: 1;
+}

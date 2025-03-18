@@ -1,0 +1,15 @@
+.section.first {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../photo/main_visual_fullscreen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section.first h2 {
+  color: white;
+}
