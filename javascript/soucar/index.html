@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/lnb.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/quick.css" />
     <link rel="stylesheet" href="css/content.css" />
-    <script type="module" src="javascript/index.js" defer></script>
+    <script type="module" src="./javascript/index.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -16,16 +20,118 @@
           <img src="https://www.socar.kr/images/logo-w.svg" />
         </a>
         <button type="button" class="btn--nav">
-          <span class="bar"></span>
-          <span class="bar"></span>
+          <span class="upBar"></span>
+          <span class="downBar"></span>
         </button>
       </div>
     </header>
 
     <main>
-      <section class="section first">
-        <h2>차가 필요한 모든 순간, 쏘카</h2>
+      <section class="hero">
+        <div class="container">
+          <h2 class="title">
+            차가 필요한<br />
+            모든 순간, 쏘카
+          </h2>
+        </div>
+      </section>
+
+      <section class="usp content">
+        <div class="container">
+          <h2 class="title">24시간 언제나</h2>
+          <span class="subtitle"
+            >한밤중이나 주말에도 스마트폰으로<br />
+            시간에 구애받지 않고<br />
+            쏘카와 함께 이동하세요.
+          </span>
+          <div class="thumb">
+            <img src="./photo/usp_a.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="usp content">
+        <div class="container">
+          <h2 class="title">원하는 곳에서</h2>
+          <span class="subtitle"
+            >내 주변 3분 거리 쏘카존에서<br />
+            혹은 내가 있는 곳으로 쏘카를 불러<br />
+            어디서나 편하게 출발하세요.
+          </span>
+          <div class="thumb">
+            <img src="./photo/usp_b.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="usp content">
+        <div class="container">
+          <h2 class="title">필요한 시간만큼</h2>
+          <span class="subtitle"
+            >간단한 장보기부터 주말여행까지<br />
+            10분 단위로 원하는 만큼만 이용하세요.
+          </span>
+          <div class="thumb">
+            <img src="./photo/usp_c.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="usp content">
+        <div class="container">
+          <h2 class="title">다양한 차종을</h2>
+          <span class="subtitle"
+            >연인과의 드라이브부터 가족 캠핑까지<br />
+            상황에 맞게 50여 종의 차량을<br />
+            선택해서 이용하세요.
+          </span>
+          <div class="thumb">
+            <img src="./photo/usp_d.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="end">
+        <div class="container">
+          <span class="">10,686,173</span>명의 회원이 쏘카와<br />
+          함께하고 있습니다.<br />지금 바로
+          <span>쏘카 드라이브</span>를<br />시작하세요.
+        </div>
       </section>
     </main>
+
+    <footer>
+      <div class="btn-list">
+        <a href="#!">회사소개</a>
+        <a href="#!">인재채용</a>
+        <a href="#!">이용약관</a>
+        <a href="#!">개인정보처리방침</a>
+        <a href="#!">취이정보 이용약관</a>
+        <a href="#!">차량소내면책제도</a>
+        <a href="#!">고객센터</a>
+        <a href="#!">제휴 문의</a>
+      </div>
+      <div class="info">
+        <div class="address-area">
+          <div class="address">주소: 제주특별자치도 제주시</div>
+          <div class="call">1661-1315</div>
+          <div class="fax">02-6969-9333</div>
+        </div>
+        <div class="company-area">
+          <div class="company__name"></div>
+          <div class="company__name"></div>
+          <div class="company__name"></div>
+        </div>
+      </div>
+    </footer>
+
+    <aside class="quick">
+      <span class="applogo">
+        <img src="https://www.socar.kr/images/i-appicon.svg" />
+      </span>
+      쏘카 앱 다운로드
+    </aside>
+
+    <div class="lnb">lnb!!!</div>
   </body>
 </html>

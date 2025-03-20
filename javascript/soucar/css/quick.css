@@ -1,0 +1,40 @@
+.quick {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-size: 16px;
+  background-color: #32aadb;
+  padding: 20px 30px;
+  /* border-top-left-radius: 10px; */
+  /* border-bottom-left-radius: 10px; */
+  /* border-bottom: 100px solid #32aadb;
+  border-left: 100px solid #32aadb;
+  border-top: 100px solid transparent; */
+  /* transform-origin: bottom left; */
+}
+
+.quick::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 56px solid transparent;
+  border-right: 50px solid #32aadb;
+  top: 0;
+  left: -50px;
+}
+
+.quick .applogo {
+  overflow: hidden;
+  position: absolute;
+  top: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  display: block;
+  left: -35px;
+  z-index: 1;
+  border-radius: 5px;
+  box-shadow: 0 0 6px gray;
+}

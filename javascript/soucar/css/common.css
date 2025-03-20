@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "AvenirLTProHeavy";
+  src: url(../fonts/AvenirLTProHeavy.otf);
+}
+
+* {
+  font-family: "AvenirLTProHeavy";
+}
