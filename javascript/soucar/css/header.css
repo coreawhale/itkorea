@@ -12,6 +12,14 @@
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+.header.slideUp {
+  transform: translateY(-100%);
+}
+
+.header.slideDown {
+  transform: translateY(0);
+}
+
 .header.hasBackground .logo img {
   filter: red;
 }
