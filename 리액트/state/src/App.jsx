@@ -17,9 +17,9 @@ function App() {
     <>
       <Input func={setValue} />
       {/* 유효하면 초록색으로 변경 아니면 검은색 유지 */}
-      <Text text={"길이 4~12"} func={validLength} val={value} />
-      {/* <Text text={"글자에 !,#,@,&,*"} valid={validSpecial(value)} />
-      <Text text={"숫자 포함!"} valid={validHasNum(value)} /> */}
+      <Text text={"길이 4~12"} func={validLength} value={value} />
+      <Text text={"글자에 !,#,@,&,*"} func={validSpecial} value={value} />
+      <Text text={"숫자 포함!"} func={validHasNum} value={value} />
     </>
   );
 }

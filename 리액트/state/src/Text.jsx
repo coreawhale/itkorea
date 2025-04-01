@@ -1,10 +1,6 @@
 const Text = (props) => {
   return (
-    <div
-      //   func={props.func}
-      //   val={props.value}
-      style={{ color: props.valid ? "green" : "black" }}
-    >
+    <div style={{ color: props.func(props.value) ? "green" : "black" }}>
       {props.text}
     </div>
   );
