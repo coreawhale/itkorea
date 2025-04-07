@@ -1,0 +1,19 @@
+.layout {
+  width: 100%;
+  background-color: #a9c4e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 30px 0;
+
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* .header {
+  font-size: 30px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+} */

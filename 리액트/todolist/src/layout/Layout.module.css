@@ -1,0 +1,15 @@
+.application {
+  width: 100vw;
+  height: 100vh;
+  background-color: #efebe8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoolist {
+  width: 60%;
+  height: 70%;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
