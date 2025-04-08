@@ -1,14 +1,13 @@
+import { CurrentTime } from "../../shared/util/whatTime";
 import styles from "./Calender.module.css";
-import Text from "./components/Text";
-const Calender = () => {
-  const [day, date, month, year] = new Date().toUTCString().split(" ");
+import TimeText from "./components/TimeText";
 
+const Calender = () => {
   return (
     <div className={styles.layout}>
-      <Text text={day} />
-      <Text text={date} />
-      <Text text={month} />
-      <Text text={year} />
+      {CurrentTime().map((v) => (
+        <TimeText text={v} />
+      ))}
     </div>
   );
 };
