@@ -1,15 +1,14 @@
+/* 배경색 #efebe8 */
 .application {
-  width: 100vw;
-  height: 100vh;
   background-color: #efebe8;
+  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-.todoolist {
-  width: 60%;
+.todolist {
   height: 70%;
-  background-color: #fff;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 40%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }

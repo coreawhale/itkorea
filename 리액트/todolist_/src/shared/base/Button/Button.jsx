@@ -1,8 +1,9 @@
 import "./Button.css";
+
 const Button = (props) => {
   return (
-    <button onClick={props.add} className="button-19">
-      {props.text}
+    <button className="button-5">
+      <span class="text">{props.name}</span>
     </button>
   );
 };

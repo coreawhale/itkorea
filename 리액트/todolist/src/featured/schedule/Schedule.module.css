@@ -1,17 +1,6 @@
 .layout {
-  display: "flex";
-  align-items: "center";
-  justify-content: "space-between";
-  padding: "10px 0";
-}
-
-.task {
-  color: #5f6563;
-
-  transition: all 0.5s;
-}
-
-.done {
-  color: gray;
-  text-decoration: line-through;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }

@@ -1,18 +1,25 @@
-import Calender from "./featured/Calender/Calender";
+import { useState } from "react";
+import Calendar from "./featured/Calendar/Calendar";
 import Schedule from "./featured/schedule/Schedule";
 import Layout from "./layout/Layout";
-import Button from "./shared/base/Button/Button";
+import Add from "./featured/add/Add";
 
 function App() {
+  const [tasks, setTasks] = useState([]);
+  const [value, setValue] = useState("");
+
+  const addTask = () => {
+    setTasks((prev) => {
+      const trimValue = value.trim();
+      return !trimValue ? prev : [...tasks, trimValue];
+    });
+  };
   return (
-    <div>
-      <Layout>
-        <Calender />
-        <Schedule />
-        <input />
-        <Button name={"버튼 이름"} />
-      </Layout>
-    </div>
+    <Layout>
+      <Calendar />
+      <Schedule taskList={tasks} />
+      <Add setValue={setValue} addTask={addTask} />
+    </Layout>
   );
 }
 

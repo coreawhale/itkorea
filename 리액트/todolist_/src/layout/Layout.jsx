@@ -2,7 +2,7 @@ import styles from "./Layout.module.css";
 const Layout = (props) => {
   return (
     <main className={styles.application}>
-      <section className={styles.todolist}>{props.children}</section>
+      <section className={styles.todoolist}>{props.children}</section>
     </main>
   );
 };

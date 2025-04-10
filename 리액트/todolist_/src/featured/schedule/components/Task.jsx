@@ -1,14 +1,14 @@
 import { useState } from "react";
-import styles from "./Task.module.css";
-import CheckBox from "../../../shared/base/CheckBox/CheckBox";
 import TaskText from "./TaskText";
+import CheckBox from "../../../shared/base/CheckBox/CheckBox";
+import styles from "./Task.module.css";
 
 const Task = (props) => {
   const [isCheck, setIsCheck] = useState(false);
   return (
     <div className={styles.layout}>
-      <TaskText text={props.text} isDone={isCheck} />
-      <CheckBox setIsCheck={setIsCheck} />
+      <TaskText isDone={isCheck} text={props.text} />
+      <CheckBox setIsChecked={setIsCheck} />
     </div>
   );
 };
