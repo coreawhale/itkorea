@@ -19,7 +19,7 @@ const ContentCard = ({ isHigh, imageUrl, title, subTitle }) => {
       <div
         className={`${
           onMouse ? "opacity-100" : "opacity-0"
-        } duration-150 flex relative flex-end justify-end top-[30px] z-10`}
+        } w-[50] h-[50] left-[85%] transition-all duration-150 flex relative flex-end justify-end top-[30px] z-10`}
       >
         <Image src={`/cat${index}.png`} alt="" width={40} height={40} />
       </div>
