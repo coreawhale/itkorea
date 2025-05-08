@@ -1,6 +1,6 @@
 import NavLink from "./NavLink";
 
-const DesktopNav = () => {
+const DeskTopNav = () => {
   return (
     <ul className="hidden md:flex items-center gap-8">
       <NavLink link={"/story"} navName={"Story"} />
@@ -11,4 +11,4 @@ const DesktopNav = () => {
   );
 };
 
-export default DesktopNav;
+export default DeskTopNav;

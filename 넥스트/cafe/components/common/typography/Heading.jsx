@@ -9,9 +9,8 @@ const Heading = ({ children, level = 6 }) => {
     5: "text-lg",
     6: "text-md",
   };
-
   return (
-    <Text className={`text-[#3a466a] font-bold`} Component={`h${size[level]}`}>
+    <Text className={`text-[#3a466a] font-bold ${size[level]}`} Component={`h${level}`}>
       {children}
     </Text>
   );

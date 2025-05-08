@@ -2,7 +2,7 @@ import Text from "../base/Text";
 
 const Paragraph = ({ children, className = "" }) => {
   return (
-    <Text className={className} Component="p">
+    <Text className={`text-md text-gray-700 ${className}`} Component="p">
       {children}
     </Text>
   );
