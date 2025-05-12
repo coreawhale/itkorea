@@ -39,3 +39,16 @@ const hongkilldong: ChungChuen = {
   rank: "알바",
   wage: 10900,
 };
+
+type Dessert = "cookie" | "icecream" | "coffee";
+type A = Exclude<Dessert, "cookie">; //오른쪽에 있는 값을 제외해줘
+type B = Extract<Dessert, "icecream">; //오른쪽에 있는 값을 result해줘
+const test50: A = "icecream";
+const test51: B = "icecream";
+
+type Coffee = { name: string; price: number; kcal: number };
+
+// 함수타입 알리아스
+type Hello = (name: string) => string;
+
+const sayHello: Hello = (name) => `${name} 안녕!`;
